@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "TestSuiteAssesment">
+<test name = "TestSuiteXML">
+<parameter name = "UserID" value = "senthil.d29"></parameter>
+<classes>
+<class name = "testknowledge.TestNGDependency"></class>
+<!-- <class name = "testknowledge.TestNGPart2"></class> -->
+</classes>
+</test>
+</suite>

@@ -1,0 +1,4 @@
+13-05-2021 19:34:23 INFO  UsingConfigFile 60 : Google Site has been Opened successfully
+13-05-2021 19:34:24 INFO  UsingConfigFile 69 : Browser has been closed
+13-05-2021 19:39:43 INFO  UsingConfigFileAndPropConfigurator 60 : Google Site has been Opened successfully
+13-05-2021 19:39:44 INFO  UsingConfigFileAndPropConfigurator 69 : Browser has been closed

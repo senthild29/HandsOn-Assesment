@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "BrowSuite">
+<test name = "BrowTest">
+
+<parameter name = "URL" value = "https:google.co.in"></parameter>
+<parameter name = "GSearch" value = "Fresco Play"></parameter>
+
+<classes>
+
+<class name = "seleniumHandsOn.HackerRankCode"></class>
+
+</classes>
+</test>
+</suite>

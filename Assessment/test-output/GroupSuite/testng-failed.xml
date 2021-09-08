@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GroupSuite]">
+  <test thread-count="5" name="GroupTest(failed)">
+    <groups>
+      <run>
+        <include name="MyGroup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testknowledge.TestNGGroup">
+        <methods>
+          <include name="OpenTestLeaf"/>
+          <include name="OpenWikipedia"/>
+        </methods>
+      </class> <!-- testknowledge.TestNGGroup -->
+    </classes>
+  </test> <!-- GroupTest(failed) -->
+</suite> <!-- Failed suite [GroupSuite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "GroupSuite">
+<test name = "GroupTest">
+<groups>
+<run>
+<include name = "MyGroup"></include>
+</run>
+</groups>
+<classes>
+<class name = "testknowledge.TestNGGroup"></class>
+</classes>
+</test>
+</suite>

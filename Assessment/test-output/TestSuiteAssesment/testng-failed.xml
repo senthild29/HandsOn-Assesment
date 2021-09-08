@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteAssesment]">
+  <test thread-count="5" name="TestSuiteXML(failed)">
+    <parameter name="UserID" value="senthil.d29"/>
+    <classes>
+      <class name="testknowledge.TestNGDependency">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenGmail"/>
+          <include name="OpenBrowser"/>
+          <include name="LoginGmail"/>
+        </methods>
+      </class> <!-- testknowledge.TestNGDependency -->
+    </classes>
+  </test> <!-- TestSuiteXML(failed) -->
+</suite> <!-- Failed suite [TestSuiteAssesment] -->

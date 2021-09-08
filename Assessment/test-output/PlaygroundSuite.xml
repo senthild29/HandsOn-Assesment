@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuitePlayGround">
+	<test name="TestPlayGround">
+		<classes>
+			<class name="testknowledge.PlayGround">	</class>
+		</classes>
+	</test>
+</suite>
